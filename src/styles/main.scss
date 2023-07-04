@@ -1,0 +1,32 @@
+*{
+    background-color: antiquewhite;;
+}
+
+h1{
+    font-family: sans-serif;
+}
+#laughImg{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:1rem;
+    padding: 2rem;
+}
+#joke{
+    height: 150px;
+    font-size: 2rem;
+    text-align: center;
+}
+.btn{
+    padding: 0.5rem 0.7rem;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bold;
+}
