@@ -7,9 +7,10 @@ This repository is created following along the video on Youtube from [Traversy M
 ```
 npm init -y
 ```
-to create `node_modules` and `package.json` files(The `-y` flag will help to skip questions) then
+to create `node_modules` and `package.json` files (The `-y` flag will help to skip questions) then,
 * Install webpack and webpack-cli using 
-```npm i -D webpack webpack-cli
+```
+npm i -D webpack webpack-cli
 ```
 
 * You can copy only `webpack.config.js` for your webpack setup and add scripts
@@ -25,15 +26,17 @@ You will be prompted to install dependencies when running dev server for first t
 
 ### For installing plugins and loaders
 
-1. For installing `HtmlWebpackPlugin` run 
+1. For installing `HtmlWebpackPlugin` plugin run 
     ```
     npm i -D html-webpack-plugin
     ```
-2. For installing loaders run
+2. For installing __loaders__ run
     ```
     npm i -D sass style-loader css-loader sass-loader
     ```
-3. For babel which is used for backwards compatibility
+    _You only need to install `style-loader` and `css-loader` if you are not using `sass`._
+
+3. For __babel__ which is used for backwards compatibility
     ```
     npm i -D babel-loader @babel/core @babel/preset-env
     ```
@@ -100,4 +103,4 @@ module.exports = {
     ],
 }
 ```
-__Feel free to make changes if required.__
+__Feel free to make changes as required.__
