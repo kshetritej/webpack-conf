@@ -40,7 +40,7 @@ You will be prompted to install dependencies when running dev server for first t
     ```
     npm i -D babel-loader @babel/core @babel/preset-env
     ```
-4. You can copy the configuration file with messy comments from here, for ony code version open original source
+4. You can copy the configuration file with messy comments from here, for only code version open original source
 ```
 const path = require('path') // it will allow us to use __dirname and use paths obviously
 const HtmlWebpackPlugin = require('html-webpack-plugin') 
