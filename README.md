@@ -7,12 +7,12 @@ This repository is created following along the video on Youtube from [Traversy M
 ```
 npm init -y
 ```
-to create `node_modules` and `package.json` files (The `-y` flag will help to skip questions) then,
+to create `package.json` file (The `-y` flag will help to skip questions) then,
 * Install webpack and webpack-cli using 
 ```
 npm i -D webpack webpack-cli
 ```
-
+_it will install `node_modules` and `package-lock.json` with webpack and webpack-cli_
 * You can copy only `webpack.config.js` for your webpack setup and add scripts
     ``` 
     "build": 'webpack',
