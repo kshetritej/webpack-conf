@@ -2,7 +2,7 @@
 
 This repository is created following along the video on Youtube from [Traversy Media](https://www.youtube.com/watch?v=IZGNcSuwBZs&t=1370s). Here, he also created a simple app to create 'Dad Jokes'. 
 
-### First thing First
+### First thing First first
 * Run 
 ```
 npm init -y
